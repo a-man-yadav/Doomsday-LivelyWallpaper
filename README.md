@@ -4,7 +4,7 @@
 
 1. **Clone or Download** this repository to your computer:
    ```bash
-   git clone https://github.com/your-username/Doomsday-LivelyWallpaper.git
+   git clone https://github.com/a-man-yadav/Doomsday-LivelyWallpaper.git
    ```
    *(Or click **Code -> Download ZIP** on GitHub and extract the folder).*
 
