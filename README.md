@@ -6,7 +6,7 @@
    ```bash
    git clone https://github.com/a-man-yadav/Doomsday-LivelyWallpaper.git
    ```
-   *(Or click **Code -> Download ZIP** on GitHub and extract the folder).*
+   *(Or click **Code -> Download ZIP** on GitHub and extract the folder). **->** Works best with Lively Wallpaper.*
 
 2. Open **[Lively Wallpaper](https://github.com/rocksdanister/lively)** on your Windows PC.
 3. Click the **`+` (Add Wallpaper)** button in the top right header.
