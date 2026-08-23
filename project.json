@@ -1,0 +1,56 @@
+{
+  "title": "AVENGERS: DOOMSDAY Live Countdown Wallpaper",
+  "description": "Cinematic 60 FPS live desktop countdown wallpaper inspired by Avengers Doomsday.",
+  "type": "web",
+  "file": "index.html",
+  "preview": "thumbnail.png",
+  "general": {
+    "properties": {
+      "targetDate": {
+        "text": "Target Date",
+        "type": "text",
+        "value": "2026-12-18T00:00:00"
+      },
+      "taglineText": {
+        "text": "Tagline",
+        "type": "text",
+        "value": "THE END IS COMING"
+      },
+      "showTagline": {
+        "text": "Show Tagline",
+        "type": "bool",
+        "value": true
+      },
+      "showDate": {
+        "text": "Show Date Header",
+        "type": "bool",
+        "value": true
+      },
+      "animationQuality": {
+        "text": "Quality Mode",
+        "type": "combo",
+        "options": [
+          { "label": "High", "value": 0 },
+          { "label": "Medium", "value": 1 },
+          { "label": "Low", "value": 2 }
+        ],
+        "value": 0
+      },
+      "enableParticles": {
+        "text": "Dust Particles",
+        "type": "bool",
+        "value": true
+      },
+      "enableFog": {
+        "text": "Fog Haze",
+        "type": "bool",
+        "value": true
+      },
+      "enableGrain": {
+        "text": "Film Grain",
+        "type": "bool",
+        "value": true
+      }
+    }
+  }
+}

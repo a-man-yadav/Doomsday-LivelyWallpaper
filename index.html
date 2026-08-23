@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cinematic Live Desktop Wallpaper Countdown Inspired by Avengers: Doomsday">
+    <title>AVENGERS: DOOMSDAY - Cinematic Countdown Live Wallpaper</title>
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Core Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/effects.js"></script>
+    <script src="js/renderer.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wallpaper-stage">
+        <!-- Canvas Background Engine (Particles, Fog & Bloom) -->
+        <canvas id="bg-canvas"></canvas>
+
+        <!-- Atmospheric Vignette & Film Grain Overlays -->
+        <div id="vignette-overlay"></div>
+        <canvas id="grain-canvas"></canvas>
+
+        <!-- Main Content Layer -->
+        <main class="content-layer">
+            <!-- Target Date Display Header -->
+            <div id="date-indicator" class="date-indicator">DECEMBER 18, 2026</div>
+
+            <!-- Primary Countdown Container -->
+            <div id="countdown-container" class="countdown-row" aria-live="polite">
+                <!-- Days Unit -->
+                <div class="time-unit-group">
+                    <span class="unit-label">DAYS</span>
+                    <span id="val-days" class="digit-box">00</span>
+                </div>
+
+                <div class="colon-separator" aria-hidden="true">:</div>
+
+                <!-- Hours Unit -->
+                <div class="time-unit-group">
+                    <span class="unit-label">HOURS</span>
+                    <span id="val-hours" class="digit-box">00</span>
+                </div>
+
+                <div class="colon-separator" aria-hidden="true">:</div>
+
+                <!-- Minutes Unit -->
+                <div class="time-unit-group">
+                    <span class="unit-label">MINUTES</span>
+                    <span id="val-minutes" class="digit-box">00</span>
+                </div>
+
+                <div class="colon-separator" aria-hidden="true">:</div>
+
+                <!-- Seconds Unit -->
+                <div class="time-unit-group">
+                    <span class="unit-label">SECONDS</span>
+                    <span id="val-seconds" class="digit-box">00</span>
+                </div>
+            </div>
+
+            <!-- Zero State / Midnight Transition Container -->
+            <div id="zero-state-container" class="zero-state" style="display: none;">
+                <div class="zero-title">MIDNIGHT</div>
+                <div class="zero-subtitle">DOOMSDAY HAS ARRIVED</div>
+            </div>
+
+            <!-- Ominous Cinematic Tagline -->
+            <div id="tagline-text" class="tagline">THE END IS COMING</div>
+        </main>
+
+        <!-- Debug Information Overlay -->
+        <div id="debug-overlay" class="debug-overlay" style="display: none;">
+            <div class="debug-title">DOOMSDAY WALLPAPER DEBUG</div>
+            <div class="debug-row"><span class="debug-label">FPS:</span> <span id="debug-fps">60</span></div>
+            <div class="debug-row"><span class="debug-label">Current System Time:</span> <span id="debug-current-time">--</span></div>
+            <div class="debug-row"><span class="debug-label">Target Date:</span> <span id="debug-target-time">--</span></div>
+            <div class="debug-row"><span class="debug-label">Remaining Diff:</span> <span id="debug-diff-ms">--</span></div>
+            <div class="debug-row"><span class="debug-label">Viewport / Quality:</span> <span id="debug-viewport">--</span></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "AppVersion": "1.0.0.0",
+  "Title": "AVENGERS: DOOMSDAY Live Wallpaper",
+  "Thumbnail": "thumbnail.png",
+  "Preview": "thumbnail.png",
+  "Desc": "Cinematic live desktop countdown wallpaper inspired by Marvel Studios' Avengers Doomsday livestream.",
+  "Author": "Antigravity AI",
+  "License": "MIT",
+  "Contact": "",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "",
+  "IsPublic": true
+}
